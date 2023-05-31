@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class find_char_in_string {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        char target = in.next().charAt(0);;
+        char target = in.next().charAt(0);
+        String s=in.next();
         String arr = "soham";
         boolean ans =linearsearch(arr, target);
         System.out.println("stutus of target: "+ans);

@@ -1,3 +1,4 @@
+package trash;
 import java.util.Scanner;
 
 public class find_char_in_string {

@@ -1,3 +1,4 @@
+package trash;
 
 public class contains_duplicate {
     public static void main(String[] args) {

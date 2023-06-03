@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class linear_search {
@@ -7,6 +8,7 @@ public class linear_search {
         int[] arr = { 2, 3, 5, 9, 14, 16, 18 };
         int ans =linearsearch(arr, target);
         System.out.println("Index of target: "+ans);
+        in.close();
 
     }
     static int linearsearch(int[] arr, int target){

@@ -11,8 +11,9 @@ public class recursion {
             System.out.println("hello world");
             return;
         }
-        System.out.println("hello world");
+
         message(n + 1);
+        System.out.println(n);
 
     }
 }

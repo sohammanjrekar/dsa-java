@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "path_restriction",
+            "request": "launch",
+            "mainClass": "backtracking.path_restriction",
+            "projectName": "dsa-java_873c0268"
+        },
+        {
+            "type": "java",
+            "name": "maze",
+            "request": "launch",
+            "mainClass": "backtracking.maze",
+            "projectName": "dsa-java_873c0268"
+        },
+        {
+            "type": "java",
             "name": "phonepad",
             "request": "launch",
             "mainClass": "permutations.phonepad",

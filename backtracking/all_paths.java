@@ -19,6 +19,7 @@ public class all_paths {
         if (!maze[row][col]) {
             return;
         }
+        maze[row][col]=false;
         if (row < maze.length - 1) {
             path(p + 'D', maze, row + 1, col);
         }
@@ -32,6 +33,6 @@ public class all_paths {
         if (col > 0) {
             path(p + 'L', maze, row, col - 1);
         }
-
+maze[row][col]=true;
     }
 }

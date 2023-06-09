@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "all_paths",
+            "request": "launch",
+            "mainClass": "backtracking.all_paths",
+            "projectName": "dsa-java_873c0268"
+        },
+        {
+            "type": "java",
             "name": "path_restriction",
             "request": "launch",
             "mainClass": "backtracking.path_restriction",

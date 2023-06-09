@@ -14,6 +14,7 @@ public class find_Ceiling_number {
             }
 
         }
+        in.close();
 
     }
 }

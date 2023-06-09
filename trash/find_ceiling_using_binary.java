@@ -8,6 +8,7 @@ public class find_ceiling_using_binary {
         Scanner sc = new Scanner(System.in);
         int target = sc.nextInt();
         System.out.println(binarysearch(arr, target)+" "+arr[binarysearch(arr, target)]);
+        sc.close();
     }
 
     static int binarysearch(int[] arr, int target) {

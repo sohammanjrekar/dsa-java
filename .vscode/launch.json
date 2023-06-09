@@ -3,5 +3,27 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [
+        {
+            "type": "java",
+            "name": "phonepad",
+            "request": "launch",
+            "mainClass": "permutations.phonepad",
+            "projectName": "dsa-java_873c0268"
+        },
+        {
+            "type": "java",
+            "name": "permutaion",
+            "request": "launch",
+            "mainClass": "permutations.permutaion",
+            "projectName": "dsa-java_873c0268"
+        },
+        {
+            "type": "java",
+            "name": "bubble_sort",
+            "request": "launch",
+            "mainClass": "recursion.bubble_sort",
+            "projectName": "dsa-java_873c0268"
+        }
+    ]
 }

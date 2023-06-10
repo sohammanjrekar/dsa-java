@@ -1,30 +1,34 @@
 package recursion;
 
-import java.util.Scanner;
-
 public class recursion_binary_search {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int target = in.nextInt();
-        int[] arr = { 2, 3, 5, 9, 14, 16, 18 };
-        int start = 0;
-        int end = arr.length - 1;
-        int ans = binarysearch(arr, target, start, end);
-        System.out.println("Index of target: " + ans);
-        in.close();
+        int[] arr = { 5, 6, 7, 8, 9, 1, 2, 3 };
+        System.out.println(search(arr, 3, 0, arr.length - 1));
     }
 
-    static int binarysearch(int[] arr, int target, int start, int end) {
-        if (start > end) {
+    static int search(int[] arr, int target, int s, int e) {
+        if (s > e) {
             return -1;
         }
-        int mid = start + (end - start) / 2;
-        if (arr[mid] == target) {
-            return mid;
+
+        int m = s + (e - s) / 2;
+        if (arr[m] == target) {
+            return m;
         }
-        if (arr[mid] > target) {
-            binarysearch(arr, target, start, mid - 1);
+
+        if (arr[s] <= arr[m]) {
+            if (target >= arr[s] && target <= arr[m]) {
+                return search(arr, target, s, m - 1);
+            } else {
+                return search(arr, target, m + 1, e);
+            }
         }
-        return binarysearch(arr, target, mid + 1, end);
+
+        if (target >= arr[m] && target <= arr[e]) {
+            return search(arr, target, m + 1, e);
+        }
+
+        return search(arr, target, s, m - 1);
     }
+
 }

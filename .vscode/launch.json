@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "classex",
+      "request": "launch",
+      "mainClass": "oop.classex",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
       "name": "SubSeq",
       "request": "launch",
       "mainClass": "string.SubSeq",

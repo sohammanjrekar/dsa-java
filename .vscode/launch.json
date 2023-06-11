@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "inbuildLL",
+      "request": "launch",
+      "mainClass": "linkedlist.inbuildLL",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "MAin",
+      "request": "launch",
+      "mainClass": "JAVAprojects.game.MAin",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "EmployManagementSystem",
+      "request": "launch",
+      "mainClass": "JAVAprojects.employeemanajgement.JAVA.EmployManagementSystem",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
       "name": "classex",
       "request": "launch",
       "mainClass": "oop.classex",

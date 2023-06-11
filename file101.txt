@@ -1,0 +1,9 @@
+
+
+Employee ID:101
+Employee Name     :soham
+Father's Name     :raj
+Employee Contact  :70458024562
+Email Information :soham@gmail.com
+Employee position :sr. manager
+Employee Salary   :50000

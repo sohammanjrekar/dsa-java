@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MAin",
+      "request": "launch",
+      "mainClass": "linkedlist.MAin",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
       "name": "inbuildLL",
       "request": "launch",
       "mainClass": "linkedlist.inbuildLL",

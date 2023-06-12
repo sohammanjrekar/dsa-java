@@ -86,11 +86,40 @@ public class linkedlist1 {
 
     public int deleteEnd() {
 
-        if (head == null) {
-            tail = null;
+        if (size <= 1) {
+            return deleteFirst();
         }
+
+        Node secondlast = get(size - 2);
+        int val = tail.value;
+        tail = secondlast;
+        tail.next = null;
         size--;
         return val;
+    }
+
+    public int deleteindex(int index) {
+        if (index == 0) {
+            return deleteFirst();
+        }
+        if (index == size - 1) {
+            return deleteEnd();
+        }
+        Node prev = get(index - 1);
+        int val = prev.next.value;
+        prev.next = prev.next.next;
+        return val;
+    }
+
+    public Node find(int value) {
+        Node node = head;
+        while (node != null) {
+            if (node.value == value) {
+                return node;
+            }
+            node = node.next;
+        }
+        return null;
     }
 
     private class Node {

@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "queue",
+      "request": "launch",
+      "mainClass": "queue.queue",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "stack1",
+      "request": "launch",
+      "mainClass": "stack.stack1",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
       "name": "MAin",
       "request": "launch",
       "mainClass": "linkedlist.MAin",

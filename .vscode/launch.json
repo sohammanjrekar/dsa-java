@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Arraylust",
+      "request": "launch",
+      "mainClass": "Arraylist.Arraylust",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "hashset",
+      "request": "launch",
+      "mainClass": "hashset.hashset",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "hashmap",
+      "request": "launch",
+      "mainClass": "hashmap",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
       "name": "queue",
       "request": "launch",
       "mainClass": "queue.queue",

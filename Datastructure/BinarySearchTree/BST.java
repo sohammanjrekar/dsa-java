@@ -1,8 +1,5 @@
 package BinarySearchTree;
 
-// Java program to implement optimized delete in BST.
-import java.util.*;
-
 class Node {
     int key;
     Node left, right;

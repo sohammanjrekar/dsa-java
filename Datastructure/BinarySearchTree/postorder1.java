@@ -1,7 +1,6 @@
 package BinarySearchTree;
 
 // Java code to implement the approach
-import java.io.*;
 
 // Class describing a node of tree
 

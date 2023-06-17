@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "leftshift",
+      "request": "launch",
+      "mainClass": "array.leftshift",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "reversearray",
+      "request": "launch",
+      "mainClass": "array.reversearray",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "twodarray",
+      "request": "launch",
+      "mainClass": "array.twodarray",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "searching",
+      "request": "launch",
+      "mainClass": "array.searching",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "accessarray",
+      "request": "launch",
+      "mainClass": "array.accessarray",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
       "name": "insert",
       "request": "launch",
       "mainClass": "array.insert",

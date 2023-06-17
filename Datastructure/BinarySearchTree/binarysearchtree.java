@@ -2,9 +2,8 @@ package BinarySearchTree;
 // Java program to demonstrate
 
 // insert operation in binary
-// search tree
 
-import java.io.*;
+// search tree
 
 public class binarysearchtree {
 

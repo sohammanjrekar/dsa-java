@@ -6,6 +6,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "sort_string",
+      "request": "launch",
+      "mainClass": "string.sort_string",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "javastring",
+      "request": "launch",
+      "mainClass": "string.javastring",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "reverse_string",
+      "request": "launch",
+      "mainClass": "string.reverse_string",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "removespaces",
+      "request": "launch",
+      "mainClass": "string.removespaces",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "lengthstr",
+      "request": "launch",
+      "mainClass": "string.lengthstr",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "findstring",
+      "request": "launch",
+      "mainClass": "string.findstring",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "concat",
+      "request": "launch",
+      "mainClass": "string.concat",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
       "name": "leftshift",
       "request": "launch",
       "mainClass": "array.leftshift",

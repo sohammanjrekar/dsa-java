@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TowerOFHanoi",
+      "request": "launch",
+      "mainClass": "Algorithms.recursion.TowerOFHanoi",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
       "name": "sort_string",
       "request": "launch",
       "mainClass": "string.sort_string",

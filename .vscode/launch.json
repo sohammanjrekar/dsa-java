@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "subsequence",
+      "request": "launch",
+      "mainClass": "Algorithms.recursion.subsequence",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
       "name": "replace_duplicate_aphabet",
       "request": "launch",
       "mainClass": "Algorithms.recursion.replace_duplicate_aphabet",

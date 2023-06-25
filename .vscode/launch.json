@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "replace_duplicate_aphabet",
+      "request": "launch",
+      "mainClass": "Algorithms.recursion.replace_duplicate_aphabet",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "moveallxlast",
+      "request": "launch",
+      "mainClass": "Algorithms.recursion.moveallxlast",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "cheack_array_sort_in_increasing_order",
+      "request": "launch",
+      "mainClass": "Algorithms.recursion.cheack_array_sort_in_increasing_order",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "first_and_last_occurence",
+      "request": "launch",
+      "mainClass": "Algorithms.recursion.first_and_last_occurence",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "reversestring",
+      "request": "launch",
+      "mainClass": "Algorithms.recursion.reversestring",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
       "name": "TowerOFHanoi",
       "request": "launch",
       "mainClass": "Algorithms.recursion.TowerOFHanoi",

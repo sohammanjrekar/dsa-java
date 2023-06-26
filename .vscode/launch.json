@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "permutaions_of_string",
+      "request": "launch",
+      "mainClass": "Algorithms.recursion.permutaions_of_string",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "keyboard_combination",
+      "request": "launch",
+      "mainClass": "Algorithms.recursion.keyboard_combination",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "unique_subsequence",
+      "request": "launch",
+      "mainClass": "Algorithms.recursion.unique_subsequence",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
       "name": "subsequence",
       "request": "launch",
       "mainClass": "Algorithms.recursion.subsequence",

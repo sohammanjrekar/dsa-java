@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "subset",
+      "request": "launch",
+      "mainClass": "Algorithms.recursion.subset",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
       "name": "callguest",
       "request": "launch",
       "mainClass": "Algorithms.recursion.callguest",

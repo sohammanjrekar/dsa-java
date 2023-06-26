@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "callguest",
+      "request": "launch",
+      "mainClass": "Algorithms.recursion.callguest",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "place_titles_on_nm",
+      "request": "launch",
+      "mainClass": "Algorithms.recursion.place_titles_on_nm",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "maze_path",
+      "request": "launch",
+      "mainClass": "Algorithms.recursion.maze_path",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
       "name": "permutaions_of_string",
       "request": "launch",
       "mainClass": "Algorithms.recursion.permutaions_of_string",

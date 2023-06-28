@@ -111,13 +111,6 @@ public class LL {
         }
     }
 
-    public void reverse() {
-        Node temp = head;
-        while (tail.next = head) {
-            System.out.println(current.data);
-        }
-    }
-
     public static void main(String[] args) {
         LL list = new LL();
         list.addfirst(10);

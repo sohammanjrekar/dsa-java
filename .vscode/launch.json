@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "trie",
+      "request": "launch",
+      "mainClass": "Trie.trie",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "binaryt",
+      "request": "launch",
+      "mainClass": "BinaryTree.binaryt",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
       "name": "queue_array",
       "request": "launch",
       "mainClass": "queue.queue_array",

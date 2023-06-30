@@ -1,9 +1,83 @@
 {
-  // Use IntelliSense to learn about possible attributes.
-  // Hover to view descriptions of existing attributes.
-  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
+    {
+      "type": "java",
+      "name": "BinaryHeap",
+      "request": "launch",
+      "mainClass": "codebook.datastructures.BinaryHeap",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "AvlTree",
+      "request": "launch",
+      "mainClass": "codebook.datastructures.AvlTree",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "mygraph",
+      "request": "launch",
+      "mainClass": "graph.mygraph",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "mygraph",
+      "request": "launch",
+      "mainClass": "graph.mygraph",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "mygraph",
+      "request": "launch",
+      "mainClass": "Graph.mygraph",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "create_graph",
+      "request": "launch",
+      "mainClass": "Graph.create_graph",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "Floyds",
+      "request": "launch",
+      "mainClass": "Algorithms.Floyds",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "bfs_dfs",
+      "request": "launch",
+      "mainClass": "Algorithms.bfs_dfs",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "Strassen",
+      "request": "launch",
+      "mainClass": "Algorithms.Strassen",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "Dijkstra",
+      "request": "launch",
+      "mainClass": "Algorithms.Dijkstra",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "Dijkstra",
+      "request": "launch",
+      "mainClass": "Dijkstra",
+      "projectName": "dsa-java_873c0268"
+    },
     {
       "type": "java",
       "name": "trie",
@@ -640,6 +714,25 @@
       "request": "launch",
       "mainClass": "recursion.bubble_sort",
       "projectName": "dsa-java_873c0268"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/mrsoh/Downloads/dsa-java",
+      "program": "c:/Users/mrsoh/Downloads/dsa-java/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
     }
   ]
 }

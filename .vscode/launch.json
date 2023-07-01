@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "bellman_ford",
+      "request": "launch",
+      "mainClass": "graph.bellman_ford",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "cycledetection",
+      "request": "launch",
+      "mainClass": "graph.cycledetection",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
       "name": "allpathsfromStoD",
       "request": "launch",
       "mainClass": "graph.allpathsfromStoD",

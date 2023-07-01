@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "allpathsfromStoD",
+      "request": "launch",
+      "mainClass": "graph.allpathsfromStoD",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "dfs",
+      "request": "launch",
+      "mainClass": "graph.dfs",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "bfs",
+      "request": "launch",
+      "mainClass": "graph.bfs",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
       "name": "BinaryHeap",
       "request": "launch",
       "mainClass": "codebook.datastructures.BinaryHeap",

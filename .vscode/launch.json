@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "prism_algo",
+      "request": "launch",
+      "mainClass": "graph.prism_algo",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
       "name": "bellman_ford",
       "request": "launch",
       "mainClass": "graph.bellman_ford",

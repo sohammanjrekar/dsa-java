@@ -47,6 +47,17 @@ public class bellman_ford {
                 }
             }
         }
+        // detect negative cycle
+        for (int j = 0; j < v; j++) {
+            for (int k = 0; k < graph[j].size(); k++) {
+                edge e = graph[j].get(k);
+                int u = e.source;
+                int v1 = e.destination;
+                if (distance[u] != Integer.MAX_VALUE && distance[u] + e.weight < distance[v1]) {
+                    System.out.println("Neative weighted cycle");
+                }
+            }
+        }
         for (int i = 0; i < distance.length; i++) {
             System.out.print(distance[i] + "  ");
         }

@@ -3,8 +3,6 @@ package graph;
 import java.util.ArrayList;
 import java.util.Stack;
 
-import com.jwetherell.algorithms.data_structures.Graph.Edge;
-
 public class kosaraju {
     static class edge {
         int source;
@@ -39,7 +37,19 @@ public class kosaraju {
         }
         s.push(curr);
     }
-public static void dfs()
+
+    public static void dfs(ArrayList<edge> graph[], int curr, boolean visited[]) {
+        visited[curr] = true;
+        System.out.print(curr);
+        for (int i = 0; i < graph[curr].size(); i++) {
+            edge e = graph[curr].get(i);
+            if (!visited[e.destination]) {
+                dfs(graph, e.destination, visited);
+
+            }
+        }
+    }
+
     public static void kosarajualgo(ArrayList<edge> graph[], int v) {
         // step1 topology sorting
         Stack<Integer> s = new Stack<>();
@@ -52,23 +62,30 @@ public static void dfs()
         // step 2 transopse
         ArrayList<edge> transpose_graph[] = new ArrayList[v];
         for (int i = 0; i < graph.length; i++) {
-            graph[i] = new ArrayList<>();
+            visited[i] = false;
+            transpose_graph[i] = new ArrayList<edge>();
         }
         for (int i = 0; i < v; i++) {
             for (int j = 0; j < graph[i].size(); j++) {
-                edge e = graph[i].get(j); //e.src(i)-> e.destination(i)
+                edge e = graph[i].get(j); // e.src(i)-> e.destination(i)
                 transpose_graph[e.destination].add(new edge(e.destination, e.source));
             }
         }
         // step3
-        dfs
+        while (!s.isEmpty()) {
+            int curr = s.pop();
+            if (!visited[curr]) {
+                dfs(transpose_graph, curr, visited);
+                System.out.println();
+            }
 
+        }
     }
 
     public static void main(String[] args) {
         int v = 5;
         ArrayList<edge> graph[] = new ArrayList[v];
         creategraph(graph);
-        
+        kosarajualgo(graph, v);
     }
 }

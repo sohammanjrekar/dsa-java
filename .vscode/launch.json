@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "articulation_point",
+      "request": "launch",
+      "mainClass": "graph.articulation_point",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "tarjonsalgo",
+      "request": "launch",
+      "mainClass": "graph.tarjonsalgo",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "kosaraju",
+      "request": "launch",
+      "mainClass": "graph.kosaraju",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
       "name": "prism_algo",
       "request": "launch",
       "mainClass": "graph.prism_algo",

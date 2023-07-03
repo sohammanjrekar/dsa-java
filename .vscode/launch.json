@@ -3,6 +3,97 @@
   "configurations": [
     {
       "type": "java",
+      "name": "huffmandecoding",
+      "request": "launch",
+      "mainClass": "Algorithms.greddy.huffmandecoding",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "Huffmancoding",
+      "request": "launch",
+      "mainClass": "Algorithms.greddy.Huffmancoding",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "jobsequencingproblem",
+      "request": "launch",
+      "mainClass": "Algorithms.greddy.jobsequencingproblem",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "activityselectionproblem",
+      "request": "launch",
+      "mainClass": "Algorithms.greddy.activityselectionproblem",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "WeightedIntervalScheduling",
+      "request": "launch",
+      "mainClass": "Algorithms.DynamicProgramming.WeightedIntervalScheduling",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "travellingsalesman",
+      "request": "launch",
+      "mainClass": "Algorithms.DynamicProgramming.travellingsalesman",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "knapsack01",
+      "request": "launch",
+      "mainClass": "Algorithms.DynamicProgramming.knapsack01",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "topologicalsorting",
+      "request": "launch",
+      "mainClass": "graph.topologicalsorting",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "kruskalalgo",
+      "request": "launch",
+      "mainClass": "graph.kruskalalgo",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "jonsonsalgo",
+      "request": "launch",
+      "mainClass": "graph.jonsonsalgo",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "floydwareshall",
+      "request": "launch",
+      "mainClass": "graph.floydwareshall",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "dijkstraalgo",
+      "request": "launch",
+      "mainClass": "graph.dijkstraalgo",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "transposegraph$Graph",
+      "request": "launch",
+      "mainClass": "graph.transposegraph$Graph",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
       "name": "articulation_point",
       "request": "launch",
       "mainClass": "graph.articulation_point",

@@ -1,4 +1,4 @@
-package linkedlist;
+package LinkedList;
 
 public class mergesort {
     public ListNode sortList(ListNode head) {

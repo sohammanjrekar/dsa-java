@@ -1,4 +1,4 @@
-package string;
+package String;
 
 public class javastring {
     public static void main(String[] args) {

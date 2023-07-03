@@ -1,4 +1,4 @@
-package string;
+package String;
 
 public class removespaces {
     public static void main(String[] args) {

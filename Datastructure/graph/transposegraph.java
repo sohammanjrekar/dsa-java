@@ -1,4 +1,4 @@
-package graph;
+package Graph;
 
 // Java program to find the transpose of a graph
 import java.util.*;

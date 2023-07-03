@@ -1,4 +1,4 @@
-package graph;
+package Graph;
 // Java program for Kruskal's algorithm
 
 import java.util.ArrayList;

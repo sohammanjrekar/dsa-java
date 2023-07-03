@@ -1,4 +1,4 @@
-package string;
+package String;
 
 public class lengthstr {
     public static void main(String[] args) {

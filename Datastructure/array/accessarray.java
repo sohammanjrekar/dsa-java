@@ -1,4 +1,4 @@
-package array;
+package Array;
 
 public class accessarray {
     public static void main(String[] args) {

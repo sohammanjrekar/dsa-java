@@ -1,4 +1,4 @@
-package graph;
+package Graph;
 
 // Java program for Floyd Warshall All Pairs Shortest
 // Path algorithm.

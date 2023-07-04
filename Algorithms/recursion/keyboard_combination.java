@@ -1,4 +1,4 @@
-package Algorithms.recursion;
+package Algorithms.Recursion;
 
 public class keyboard_combination {
     public static void main(String[] args) {

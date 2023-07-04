@@ -1,7 +1,6 @@
 package Algorithms.DynamicProgramming;
 
-import java.sql.Time;
-import java.util.*;
+import java.util.Arrays;
 
 public class knapsack01 {
     // Java program for the above approach
@@ -21,6 +20,7 @@ public class knapsack01 {
                             + val[i - 1]);
             }
         }
+        System.out.println(Arrays.toString(dp));
         // Returning the maximum value of knapsack
         return dp[W];
     }
@@ -31,6 +31,7 @@ public class knapsack01 {
         int weight[] = { 10, 20, 30 };
         int W = 50;
         int n = profit.length;
+
         System.out.print(knapSack(W, weight, profit, n));
     }
 }

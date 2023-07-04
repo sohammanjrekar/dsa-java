@@ -1,4 +1,4 @@
-package Algorithms.greddy;
+package Algorithms.GreedyMethodology;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;

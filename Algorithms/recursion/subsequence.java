@@ -1,10 +1,11 @@
-package Algorithms.recursion;
+package Algorithms.Recursion;
 
 public class subsequence {
     public static void main(String[] args) {
         String str = "abc";
         find_subsequence(str, 0, "");
     }
+
     private static void find_subsequence(String str, int i, String ans) {
         if (i == str.length()) {
             System.out.println(ans);

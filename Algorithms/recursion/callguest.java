@@ -1,4 +1,4 @@
-package Algorithms.recursion;
+package Algorithms.Recursion;
 
 public class callguest {
     public static void main(String[] args) {

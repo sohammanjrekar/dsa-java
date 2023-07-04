@@ -1,4 +1,4 @@
-package Algorithms.recursion;
+package Algorithms.Recursion;
 
 public class recursion_binary_search {
     public static void main(String[] args) {

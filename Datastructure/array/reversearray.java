@@ -18,3 +18,5 @@ public class reversearray {
         System.out.println("After: " + Arrays.toString(arr));
     }
 }
+// Time Complexity: O(n)
+// Auxiliary Space: O(1)

@@ -1,4 +1,4 @@
-package Algorithms.greddy;
+3package Algorithms.GreedyMethodology;
 // Time Complexity: O(N log N)
 
 // Auxiliary Space: O(N)

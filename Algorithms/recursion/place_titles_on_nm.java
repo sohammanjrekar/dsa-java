@@ -1,4 +1,4 @@
-package Algorithms.recursion;
+package Algorithms.Recursion;
 
 public class place_titles_on_nm {
     public static void main(String[] args) {

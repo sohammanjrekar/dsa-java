@@ -1,4 +1,4 @@
-package Algorithms.recursion;
+package Algorithms.Recursion;
 
 public class replace_duplicate_aphabet {
     public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class replace_duplicate_aphabet {
             replaceduplicate(str, i + 1);
         } else {
             ans += c;
-            map[c-'a']=true;
+            map[c - 'a'] = true;
             replaceduplicate(str, i + 1);
         }
         return ans;

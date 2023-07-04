@@ -3,6 +3,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "DutchNationalFlag",
+      "request": "launch",
+      "mainClass": "Array.DutchNationalFlag",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "kadanesAlgo",
+      "request": "launch",
+      "mainClass": "Array.kadanesAlgo",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "knapsack01_2D",
+      "request": "launch",
+      "mainClass": "Algorithms.DynamicProgramming.knapsack01_2D",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "rotatearray",
+      "request": "launch",
+      "mainClass": "Array.rotatearray",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "rotationOfArray",
+      "request": "launch",
+      "mainClass": "Array.rotationOfArray",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "reversearray",
+      "request": "launch",
+      "mainClass": "Array.reversearray",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
       "name": "huffmandecoding",
       "request": "launch",
       "mainClass": "Algorithms.greddy.huffmandecoding",

@@ -1,4 +1,4 @@
-package Algorithms.recursion;
+package Algorithms.Recursion;
 
 public class permutaions_of_string {
     public static void main(String[] args) {

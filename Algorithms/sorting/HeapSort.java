@@ -1,4 +1,5 @@
-package Algorithms.sorting;
+package Algorithms.Sorting;
+
 import java.util.Scanner;
 
 public class HeapSort {
@@ -8,11 +9,15 @@ public class HeapSort {
         int n = sc.nextInt();
         int arr[] = new int[n];
         System.out.println("Enter " + n + " elements :");
-        for (int i = 0; i < n; i++){ arr[i] = sc.nextInt();}
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
 
         heapSort(arr);
         System.out.println("\nThe sorted array : ");
-        for (int i = 0; i < n; i++) { System.out.println(arr[i]+" "); }
+        for (int i = 0; i < n; i++) {
+            System.out.println(arr[i] + " ");
+        }
     }
 
     static void heapSort(int arr[]) {

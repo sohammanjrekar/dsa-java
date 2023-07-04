@@ -1,4 +1,4 @@
-package Algorithms.recursion;
+package Algorithms.Recursion;
 
 public class array_is_sort_or_not {
     public static void main(String[] args) {

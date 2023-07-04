@@ -1,16 +1,18 @@
-package Algorithms.recursion;
+package Algorithms.Recursion;
 
 public class moveallxlast {
     public static void main(String[] args) {
         String str = "soxhxaxxm";
         System.out.println(movex(str, 0));
     }
+
     static String ans = "";
     static int count1 = 0;
+
     private static String movex(String str, int i) {
         if (i == str.length() - 1) {
-            while(count1>0){
-                ans=ans.concat("x");
+            while (count1 > 0) {
+                ans = ans.concat("x");
                 count1--;
             }
             return ans;

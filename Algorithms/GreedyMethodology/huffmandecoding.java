@@ -1,4 +1,4 @@
-package Algorithms.greddy;
+package Algorithms.GreedyMethodology;
 
 import java.util.*;
 import java.util.Map.Entry;

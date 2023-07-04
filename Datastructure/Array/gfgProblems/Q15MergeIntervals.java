@@ -1,5 +1,5 @@
 package Array.gfgProblems;
 
-public class secondLargest {
+public class Q15MergeIntervals {
     
 }

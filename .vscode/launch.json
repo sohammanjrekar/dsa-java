@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Q2_Best_Time_to_Buy_and_Sell_Stock",
+      "request": "launch",
+      "mainClass": "Array.gfgProblems.Q2_Best_Time_to_Buy_and_Sell_Stock",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "pairWithSum",
+      "request": "launch",
+      "mainClass": "Java.hashset.pairWithSum",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "Q1_pair_with_Sum_exists_in_Array",
+      "request": "launch",
+      "mainClass": "Array.gfgProblems.Q1_pair_with_Sum_exists_in_Array",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "maxtilli",
+      "request": "launch",
+      "mainClass": "Array.problems.maxtilli",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
       "name": "DutchNationalFlag",
       "request": "launch",
       "mainClass": "Array.DutchNationalFlag",

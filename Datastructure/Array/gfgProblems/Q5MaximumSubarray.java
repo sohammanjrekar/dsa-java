@@ -1,5 +1,5 @@
 package Array.gfgProblems;
 
-public class moveAllZeroToEnd {
+public class Q5MaximumSubarray {
     
 }

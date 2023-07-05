@@ -3,6 +3,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "IndianCoins",
+      "request": "launch",
+      "mainClass": "Algorithms.GreedyMethodology.IndianCoins",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "MaxlengthChainofpairs",
+      "request": "launch",
+      "mainClass": "Algorithms.GreedyMethodology.MaxlengthChainofpairs",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "Min_absolute_diffirence",
+      "request": "launch",
+      "mainClass": "Algorithms.GreedyMethodology.Min_absolute_diffirence",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "fractionalKnapsack",
+      "request": "launch",
+      "mainClass": "Algorithms.GreedyMethodology.fractionalKnapsack",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "activitySelectionUnsorting",
+      "request": "launch",
+      "mainClass": "Algorithms.GreedyMethodology.activitySelectionUnsorting",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "activitySelection",
+      "request": "launch",
+      "mainClass": "Algorithms.GreedyMethodology.activitySelection",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
       "name": "Q2_Best_Time_to_Buy_and_Sell_Stock",
       "request": "launch",
       "mainClass": "Array.gfgProblems.Q2_Best_Time_to_Buy_and_Sell_Stock",

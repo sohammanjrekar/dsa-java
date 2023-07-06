@@ -3,6 +3,97 @@
   "configurations": [
     {
       "type": "java",
+      "name": "bitOperations",
+      "request": "launch",
+      "mainClass": "Algorithms.Bitwisealgo.bitOperations",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "oddeven",
+      "request": "launch",
+      "mainClass": "Algorithms.Bitwisealgo.oddeven",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "rightshift",
+      "request": "launch",
+      "mainClass": "Algorithms.Bitwisealgo.rightshift",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "leftshift",
+      "request": "launch",
+      "mainClass": "Algorithms.Bitwisealgo.leftshift",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "xorgate",
+      "request": "launch",
+      "mainClass": "Algorithms.Bitwisealgo.xorgate",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "notgate",
+      "request": "launch",
+      "mainClass": "Algorithms.Bitwisealgo.notgate",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "orgate",
+      "request": "launch",
+      "mainClass": "Algorithms.Bitwisealgo.orgate",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "andgate",
+      "request": "launch",
+      "mainClass": "Algorithms.Bitwisealgo.andgate",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "SearchInRotatedSortedArray",
+      "request": "launch",
+      "mainClass": "Algorithms.DivideAndConqure.SearchInRotatedSortedArray",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "quicksort",
+      "request": "launch",
+      "mainClass": "Algorithms.DivideAndConqure.quicksort",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "mergesort",
+      "request": "launch",
+      "mainClass": "Algorithms.DivideAndConqure.mergesort",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "chocolaProblems",
+      "request": "launch",
+      "mainClass": "Algorithms.GreedyMethodology.chocolaProblems",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
+      "name": "jobsequencingProblem",
+      "request": "launch",
+      "mainClass": "Algorithms.GreedyMethodology.jobsequencingProblem",
+      "projectName": "dsa-java_873c0268"
+    },
+    {
+      "type": "java",
       "name": "IndianCoins",
       "request": "launch",
       "mainClass": "Algorithms.GreedyMethodology.IndianCoins",

@@ -2,7 +2,7 @@ package Algorithms.Bitwisealgo;
 
 public class bitOperations {
     public static void main(String[] args) {
-
+//fyg
         System.out.println(getIthbit(10, 1));
         System.out.println(setIthbit(10, 1));
         System.out.println(clearIthbit(15,2));
